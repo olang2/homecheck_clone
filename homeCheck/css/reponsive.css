@@ -16,15 +16,15 @@
   .logo img{width: 150px;}
 }
 @media screen and (max-width:768px){
-  html{font-size: 14px;}
+  html{font-size: 14px;overflow-x: hidden;}
   .visual_icon ul{flex-wrap: wrap;}
   .visual_icon ul li{width: 33.333%;flex: auto;}
   .visual_icon ul li a{padding: 15px;}
   .visual_icon ul li a::before,.visual_icon ul li a::after{height: 3px;}
   .main_text a{padding: 15px 40px;}
-  .ser_text{padding: 0 10px;}
-  .ser_text strong{font-size: 14px;}
-  .ser_text p{font-size: 12px;}
+  .ser_text{padding: 0px;}
+  .ser_text strong{font-size: 12px;}
+  .ser_text p{font-size: 8px;color: #fff;}
   .service_content ul li a:hover .ser_text::before{left: -30%;}
   .homecheck,.expert{margin-top: 30px; flex-direction: column;}
   .homecheck .text,.homecheck .img{width: 80%;}
@@ -78,4 +78,3 @@
   .footer .footer_logo{width:100%;}
   .footer address{width: 100%;}
 }
-@media screen and (max-width:480px){}
